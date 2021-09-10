@@ -1,0 +1,111 @@
+.postContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    
+}
+.post{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 16px;
+    box-shadow: 0 3px 9px rgb(255 255 255 / 20%), 0 8px 15px rgb(0 0 0 / 20%);
+    
+}
+.postHeader{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(168, 164, 164, 0.637);
+    
+}
+.postMedia{
+    max-height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postDetails{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.postFunc{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.postAddComment{
+    height: 60%;
+    width: 100%;
+    border-top: 1px solid rgba(168, 164, 164, 0.637);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconStyling{
+    margin:10px;
+}
+
+.uname{
+    height: 100%;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ***************************DAILOG BOX********************************* */
+.dialogContainer{
+    height: 85vh;
+    width: 50vw;
+    display: flex;
+    padding: 10px;
+    background: rgba(222, 215, 240, 0.486);
+}
+.media-part{
+    max-height: 85vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.dialogVideo{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.info-part{
+    max-height: 85vh;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.extra{
+    height: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+.likes{
+    height: 45%;
+}
+.profileCommentBox{
+    height: 45%;
+}

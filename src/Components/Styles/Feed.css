@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #3f3f41;
+    filter: brightness(1.08);
+}
+.feedLoading{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedBody{
+    background-image: url('../Images/Bg.png');
+    background-size: cover;
+}
+.bodyArea{
+    background: rgba(216, 220, 255, 0.295);
+    backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position: relative;
+}
+.bodyArea::-webkit-scrollbar {
+    display: none;
+  }
+  
+.naviBar{
+    height: 8.5%;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(168, 164, 164, 0.637);
+    -webkit-backdrop-filter: blur(6px); 
+    backdrop-filter: blur(6px);
+    background: linear-gradient(to bottom, #cdbde6ef 5%, #d1c2f7ef 100%);
+    box-shadow: 0px 10px 14px -7px #ddc3f5;
+    background-color: #d6befa;
+}
+.feed{
+    display: flex;
+}
+
+.feedLeftCompo{
+    width: 30%;
+    height: 88vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    left:0;
+    top: 75px;
+    border-right: 1px solid rgba(168, 164, 164, 0.637);
+}
+
+.leftFeedPic{
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 47% 53% 36% 64% / 55% 79% 21% 45% ;
+    
+}
+.leftFeedimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 47% 53% 36% 64% / 55% 79% 21% 45% ;
+    object-fit: cover;
+    box-shadow: 0 3px 9px rgba(65, 64, 64, 0.2),
+    0 8px 15px rgba(0,0,0,.2);
+}
+
+.leftFeedUserName{
+    height: 70px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.backArrow{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+.feedsArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+}
+
+.uploadBtns{
+    height: 50px;
+    width: 80%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, #a06ded 5%, #845ce0 100%) ;
+    box-shadow: 0 3px 9px rgba(65, 64, 64, 0.2),
+    0 8px 15px rgba(0,0,0,.2);
+}
+.backBtn{
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pboxOption{
+    height: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.pbox1{
+    height: 25%;
+    width: 100%;
+}
+.pbox2{
+    height: 16%;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+.pbox3{
+    height: 25%;
+    width: 100%;
+    padding: 10px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pPageimgbox{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 47% 53% 36% 64% / 55% 79% 21% 45% ;
+}
+.pPageimg{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 47% 53% 36% 64% / 55% 79% 21% 45% ;
+    box-shadow: 0 3px 9px rgb(65 64 64 / 20%), 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.pbox21{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    outline: none;
+}
+.pbox22{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pbox23{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.pbox231{
+    margin: 0;
+    color: #686968;
+}
+.pbox211{
+    margin: 0;
+    font-size: 1.2rem;
+    color: rgb(44, 43, 43);
+}
+.editBtn{
+    padding: 5px;
+    background-color: rgb(44, 43, 43);
+    color: rgb(228, 228, 228);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pbox31{
+    height: 20%;
+    width: 90%;
+
+}
+.pbox32{
+    height: 77%;
+    width: 90%;
+    outline: none;
+    font-size: 14px;
+    color: #686968;
+    overflow: auto;
+    margin: auto 0;
+}
+.pbox32::-webkit-scrollbar {
+    display: none;
+  }
+
+.pbox311{
+    margin: 0;
+    color: rgb(44, 43, 43);
+    font-size: 15px;
+}
+.pbox4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

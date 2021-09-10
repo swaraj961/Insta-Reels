@@ -1,0 +1,72 @@
+.profilePostContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.profilePost{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.profilePost:hover{
+    filter: brightness(80%);
+    background-color: rgba(59, 58, 58, 0.075);
+}
+.profilePostMedia{
+    height: 95%;
+    width: 95%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 9px rgb(65 64 64 / 20%), 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+
+.dialogContainer{
+    height: 85vh;
+    width: 50vw;
+    display: flex;
+    padding: 10px;
+    background: rgba(222, 215, 240, 0.486);
+}
+.media-part{
+    max-height: 85vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.dialogVideo{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.info-part{
+    max-height: 85vh;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.extra{
+    height: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+.likes{
+    height: 45%;
+}
+.profileCommentBox{
+    height: 45%;
+}

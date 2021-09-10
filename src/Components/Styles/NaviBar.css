@@ -1,0 +1,42 @@
+.navImage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side1{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 95%;
+}
+.side2{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+    padding: 8px;
+    right: 4px;
+    position: relative;
+    transform: rotate(15deg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navName{
+    height: 100%;
+    padding: 7px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
